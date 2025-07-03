@@ -1,0 +1,10 @@
+{
+  "input_dim": 3072,
+  "num_classes": 10,
+  "layers": [
+    {"type": "linear", "size": 512},
+    {"type": "relu"},
+    {"type": "linear", "size": 256},
+    {"type": "relu"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "input_dim": 3072,
+  "layers": [
+    {
+      "type": "Linear",
+      "out_features": 16,
+      "activation": "ReLU"
+    },
+    {
+      "type": "Linear",
+      "out_features": 8,
+      "activation": "ReLU"
+    },
+    {
+      "type": "Linear",
+      "out_features": 4,
+      "activation": "ReLU"
+    },
+    {
+      "type": "Linear",
+      "out_features": 10
+    }
+  ]
+}

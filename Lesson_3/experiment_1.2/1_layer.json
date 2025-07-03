@@ -1,0 +1,9 @@
+{
+  "input_size": 784,
+  "num_classes": 10,
+  "layers": [
+    {"type": "linear", "size": 10},
+    {"type": "batch_norm"},
+    {"type": "dropout", "rate": 0.1}
+  ]
+}
